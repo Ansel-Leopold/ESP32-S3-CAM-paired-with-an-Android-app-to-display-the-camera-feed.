@@ -4,8 +4,8 @@
 #define CAMERA_MODEL_ESP32S3_EYE
 #include "camera_pins.h"
 
-const char* ssid = "feng_zi";
-const char* password = "lizefeng326";
+const char* ssid = "*********"; //改成自己的热点或wifi名字
+const char* password = "*********";//改成自己的热点或wifi密码
 
 void startCameraServer();
 void setupLedFlash(int pin);
